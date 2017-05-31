@@ -99,10 +99,6 @@ const developmentConfig = merge([
   }),
   parts.loadCSS(),
   parts.loadImages(),
-  parts.setFreeVariable(
-    'process.env.NODE_ENV',
-    'production'
-  ),
 ]);
 
 module.exports = (env) => {
